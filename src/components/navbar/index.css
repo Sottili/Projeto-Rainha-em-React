@@ -10,6 +10,15 @@
   width: 80px;
 }
 
+.navbar-toggler-icon {
+  background-image: url(../../img/hamb-item.png) !important;
+  height: 35px;
+  width: 35px;
+}
+
+.navbar-toggler {
+  border: 0.2px solid #fff !important;
+}
 .links-navbar {
   color: #fff;
   text-decoration: none;
