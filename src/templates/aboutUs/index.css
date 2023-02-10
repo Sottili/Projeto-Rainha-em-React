@@ -1,0 +1,20 @@
+.title-aboutUs {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.paragraph-aboutUs {
+  font-size: 18px;
+}
+
+.row-aboutUs {
+  margin-top: 50px;
+  justify-content: center !important;
+}
+
+.title-localization {
+  text-align: center;
+  margin-bottom: 20px;
+}
