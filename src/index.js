@@ -1,14 +1,39 @@
+// REACT //
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+// CSS //
+
 import './index.css';
+
+// ROUTER DOM //
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 
+// TEMPLATES //
+
 import HomeRainha from './templates/home';
 import AboutUs from './templates/aboutUs';
 import ImportanciaDieta from './templates/artigos/importancia-da-dieta';
+
+// CURSOS //
+
+import MagnifiedHealing from './templates/cursos/magnifiedHealing/magnifiedHealing';
+import KarunaKi from './templates/cursos/karunaKi';
+import ReikiCristao from './templates/cursos/reikiCristao';
+import ReikiTibetano from './templates/cursos/reikiTibetano';
+import CristaisEtericos from './templates/cursos/cristaisEtericos';
+import Kundalini from './templates/cursos/kundaliniTantra';
+import IniciacaoYod from './templates/cursos/iniciacaoYod';
+import IniciacaoSagradaEspadaMiguel from './templates/cursos/iniciacaoSagradaEspadaMiguel';
+import IniciacaoChamaVioleta from './templates/cursos/iniciacaoChamaVioleta';
+import IniciacaoSeteRaiosCosmicos from './templates/cursos/iniciacaoSeteRaiosCosmicos';
+import IniciacaoMahaLakshmi from './templates/cursos/iniciacaoMahaLakshmi';
+import IniciacaoLordeGanesha from './templates/cursos/iniciacaoLordGanesha';
+import IniciacaoOrdemMelchizedek from './templates/cursos/iniciacaoOrdemMelchizedek';
+import SacerdocioOrdemMelchizedek from './templates/cursos/sacerdocioOrdemMelchizedek';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +61,8 @@ const router = createBrowserRouter([
         element: <HomeRainha />,
       },
       // CURSOS //
+
+      // Reiki //
       {
         path: '/cursos/reiki-tradicional-usui-tibetano',
         element: <HomeRainha />,
@@ -50,14 +77,6 @@ const router = createBrowserRouter([
       },
       {
         path: '/cursos/djwall-khull-cosmo-ascencional',
-        element: <HomeRainha />,
-      },
-      {
-        path: '/',
-        element: <HomeRainha />,
-      },
-      {
-        path: '/',
         element: <HomeRainha />,
       },
       {
@@ -118,59 +137,59 @@ const router = createBrowserRouter([
       },
       {
         path: '/cursos/magnified-healing',
-        element: <HomeRainha />,
+        element: <MagnifiedHealing />,
       },
       {
         path: '/cursos/karuna-ki',
-        element: <HomeRainha />,
+        element: <KarunaKi />,
       },
       {
         path: '/cursos/reiki-cristao',
-        element: <HomeRainha />,
+        element: <ReikiCristao />,
       },
       {
         path: '/cursos/reiki-tibetano',
-        element: <HomeRainha />,
+        element: <ReikiTibetano />,
       },
       {
         path: '/cursos/cristais-etericos-quanticos',
-        element: <HomeRainha />,
+        element: <CristaisEtericos />,
       },
       {
         path: '/cursos/kundalini-tantra-reiki',
-        element: <HomeRainha />,
+        element: <Kundalini />,
       },
       {
         path: '/cursos/iniciacao-yod',
-        element: <HomeRainha />,
+        element: <IniciacaoYod />,
       },
       {
         path: '/cursos/iniciacao-sagrada-espada-arcanjo-miguel',
-        element: <HomeRainha />,
+        element: <IniciacaoSagradaEspadaMiguel />,
       },
       {
         path: '/cursos/iniciacao-sagrada-chama-violeta',
-        element: <HomeRainha />,
+        element: <IniciacaoChamaVioleta />,
       },
       {
         path: '/cursos/iniciacao-sagrada-sete-raios',
-        element: <HomeRainha />,
+        element: <IniciacaoSeteRaiosCosmicos />,
       },
       {
         path: '/cursos/iniciacao-mahalakshmi',
-        element: <HomeRainha />,
+        element: <IniciacaoMahaLakshmi />,
       },
       {
         path: '/cursos/iniciacao-lorde-ganesha',
-        element: <HomeRainha />,
+        element: <IniciacaoLordeGanesha />,
       },
       {
         path: '/cursos/iniciacao-ordem-de-melchizedek',
-        element: <HomeRainha />,
+        element: <IniciacaoOrdemMelchizedek />,
       },
       {
         path: '/cursos/sacerdocio-ordem-de-melchizedek',
-        element: <HomeRainha />,
+        element: <SacerdocioOrdemMelchizedek />,
       },
     ],
   },
