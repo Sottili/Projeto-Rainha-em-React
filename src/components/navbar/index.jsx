@@ -32,11 +32,15 @@ const NavbarAll = () => {
                 </Link>
               </Nav.Link>
               <NavDropdown className="dropdown-title" id="basic-nav-dropdown" title="Artigos">
-                <NavDropdown.Item>
-                  <Link className="links-navbar" to="/orientacoes-de-participacao">
-                    Orientações de Participação
-                  </Link>
-                </NavDropdown.Item>
+                <a
+                  className="link-orientacao"
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1Tfbni9NLAT3UZTDMtFFP41uQytotjWxY/view"
+                  rel="noreferrer"
+                >
+                  Orietanções de Participacão
+                </a>
+
                 <NavDropdown.Item>
                   <Link className="links-navbar" to="/importancia-da-dieta">
                     Importância da Dieta

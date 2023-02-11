@@ -19,6 +19,18 @@
 .navbar-toggler {
   border: 0.2px solid #fff !important;
 }
+
+.link-orientacao {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  padding-left: 30px;
+}
+
+.link-orientacao:hover {
+  color: #fff;
+}
+
 .links-navbar {
   color: #fff;
   text-decoration: none;
