@@ -28,21 +28,21 @@ const AboutUs = () => {
               <img className="img-fluid" width={320} src={gloriaFrighetto} alt="Gloria Frighetto Dirigente" />
             </Col>
             <Col className="mt-4" style={{ textAlign: 'center' }} xxl={4}>
-              <h3>Gloria Frighetto</h3>
+              <h3>Gloria Strega</h3>
               <p className="paragraph-aboutUs">
-                Gloria Frighetto, terapeuta desde 2010, fundou o Céu Rainha da Nova Era em outubro de 2015 com o
-                objetivo de levar uma nova consciência de vida para pessoas desde planeta. Buscando reconexão com a
-                natureza, harmonia, amor e respeito a todos os seres. Desenvolveu uma conexão com a ancestralidade ao
-                longo da sua trajetória e em 2021 mudou o nome da casa para Rainha da Antiga Religião em honra aos
-                ancestrais da Antiga Religião para resgatar os estudos e práticas dos ancestrais de linhagens xamânicas
-                de muitos povos, inclusive do nosso chão Brasil.
+                Gloria Strega, terapeuta desde 2010, fundou o Céu Rainha da Nova Era em outubro de 2015 com o objetivo
+                de levar uma nova consciência de vida para pessoas desde planeta. Buscando reconexão com a natureza,
+                harmonia, amor e respeito a todos os seres. Desenvolveu uma conexão com a ancestralidade ao longo da sua
+                trajetória e em 2021 mudou o nome da casa para Rainha da Antiga Religião em honra aos ancestrais da
+                Antiga Religião para resgatar os estudos e práticas dos ancestrais de linhagens xamânicas de muitos
+                povos, inclusive do nosso chão Brasil.
               </p>
             </Col>
             <Col className="mt-4" style={{ textAlign: 'center' }} xxl={4}>
               <h3>Oque fazemos?</h3>
               <p className="paragraph-aboutUs">
                 Nossa principal atividade são os trabalhos na linhagem do Neo Xamanismo Universal, com a utilização das
-                Medicinas da Floresta como Ayahuasca, Rapé, Sananga, Tabaco,Kambô, Tenda do suor, dentre outras.
+                Medicinas da Floresta como Ayahuasca, Rapé, Sananga, Tabaco, Kambô, Tenda do suor, dentre outras.
                 Trabalhamos também com Terapias Alternativas como Alinhamento Energético, Reiki, Cristalterapia,
                 Regressão de Memória e TVP, Leitura de Tarot, Terapia Floral, Fitoterapia, Reflexologia,
                 Auriculoterapia, e muitas ouras técnicas.

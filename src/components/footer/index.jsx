@@ -24,14 +24,15 @@ const Footer = () => {
               <p className="text-email">Email: contato@rainhadaantigareligiao.org.br</p>
               <p className="footer-subtitle">Contato Dirigente</p>
               <div className="divider-area-footer"></div>
-              <p className="text-footer">(11) 97715-5459 – Glória Frighetto</p>
+              <p className="text-footer">(11) 97715-5459 – Glória Strega</p>
             </div>
           </div>
           <div className="col-right">
             <h4 className="text-center copyright-footer">
-              Rainha da Antiga Religião – Todos os direitos reservados – &copy;2022
+              Rainha da Antiga Religião – Todos os direitos reservados – &copy;2023
             </h4>
             <p className="cnpj">CNPJ: 24.737.059/0001-25</p>
+            <p className="text-center dev">Desenvolvido por Filipe Sottili</p>
           </div>
         </div>
       </footer>

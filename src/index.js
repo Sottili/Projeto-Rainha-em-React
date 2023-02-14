@@ -34,6 +34,23 @@ import IniciacaoMahaLakshmi from './templates/cursos/iniciacaoMahaLakshmi';
 import IniciacaoLordeGanesha from './templates/cursos/iniciacaoLordGanesha';
 import IniciacaoOrdemMelchizedek from './templates/cursos/iniciacaoOrdemMelchizedek';
 import SacerdocioOrdemMelchizedek from './templates/cursos/sacerdocioOrdemMelchizedek';
+import ReikiUsuiTibetano from './templates/cursos/reikiUsuiTibetano';
+import ReikiCelta from './templates/cursos/reikiCelta';
+import ReikiAvalon from './templates/cursos/reikiAvalonExcalibur';
+import DragonReiki from './templates/cursos/dragonReiki';
+import RowenaHealing from './templates/cursos/rowenaHealing';
+import ElMoryaHealing from './templates/cursos/elMoryaHealing';
+import DjwallKhull from './templates/cursos/djwallKhull';
+import TeramaiReiki from './templates/cursos/teramaiReiki';
+import SeichimSeikhem from './templates/cursos/seichimSeikhem';
+import RaSheeba from './templates/cursos/raSheeba';
+import ReikiLuxor from './templates/cursos/reikiLuxor';
+import ShamballaMultimensional from './templates/cursos/shamballaMultidimensional';
+import ReikiAmadeus from './templates/cursos/reikiAmadeus';
+import HunaReiki from './templates/cursos/reikiHuna';
+import ReikiElemental from './templates/cursos/reikiElemental';
+import DolphinReiki from './templates/cursos/dolphinReiki';
+import ReikiDruida from './templates/cursos/reikiDruida';
 
 const router = createBrowserRouter([
   {
@@ -65,75 +82,71 @@ const router = createBrowserRouter([
       // Reiki //
       {
         path: '/cursos/reiki-tradicional-usui-tibetano',
-        element: <HomeRainha />,
+        element: <ReikiUsuiTibetano />,
       },
       {
         path: '/cursos/mestra-rowena-healing',
-        element: <HomeRainha />,
+        element: <RowenaHealing />,
       },
       {
         path: '/cursos/el-morya-healing',
-        element: <HomeRainha />,
+        element: <ElMoryaHealing />,
       },
       {
         path: '/cursos/djwall-khull-cosmo-ascencional',
-        element: <HomeRainha />,
+        element: <DjwallKhull />,
       },
       {
         path: '/cursos/teramai-reiki',
-        element: <HomeRainha />,
-      },
-      {
-        path: '/cursos/teramai-seichem',
-        element: <HomeRainha />,
+        element: <TeramaiReiki />,
       },
       {
         path: '/cursos/seichem-seikem-all-love',
-        element: <HomeRainha />,
+        element: <SeichimSeikhem />,
       },
       {
-        path: '/cursos/ra-sheeba-reiki"',
-        element: <HomeRainha />,
+        path: '/cursos/ra-sheeba-reiki',
+        element: <RaSheeba />,
       },
       {
         path: '/cursos/reiki-de-luxor',
-        element: <HomeRainha />,
+        element: <ReikiLuxor />,
       },
       {
-        path: '/cursos/shamballa-multidimencional',
-        element: <HomeRainha />,
+        path: '/cursos/shamballa-multidimensional',
+        element: <ShamballaMultimensional />,
       },
       {
         path: '/cursos/reiki-xamanico-amadeus',
-        element: <HomeRainha />,
+        element: <ReikiAmadeus />,
       },
       {
         path: '/cursos/reiki-xamanico-huna-reiki',
-        element: <HomeRainha />,
+        element: <HunaReiki />,
       },
       {
         path: '/cursos/reiki-elemental',
-        element: <HomeRainha />,
+        element: <ReikiElemental />,
       },
       {
         path: '/cursos/dolphin-reiki',
-        element: <HomeRainha />,
+        element: <DolphinReiki />,
       },
       {
         path: '/cursos/reiki-druida',
-        element: <HomeRainha />,
+        element: <ReikiDruida />,
       },
       {
         path: '/cursos/reiki-celta',
-        element: <HomeRainha />,
+        element: <ReikiCelta />,
       },
       {
         path: '/cursos/reiki-avalon-excalibur',
-        element: <HomeRainha />,
+        element: <ReikiAvalon />,
       },
       {
         path: '/cursos/dragon-reiki',
-        element: <HomeRainha />,
+        element: <DragonReiki />,
       },
       {
         path: '/cursos/magnified-healing',

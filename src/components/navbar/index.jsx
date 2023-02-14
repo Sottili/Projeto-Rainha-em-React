@@ -132,11 +132,6 @@ const NavbarAll = () => {
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link className="links-navbar-dropdown" to="/cursos/teramai-seichem">
-                      TERAMAI SEICHEM REIKI
-                    </Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
                     <Link className="links-navbar-dropdown" to="/cursos/seichem-seikem-all-love">
                       SEICHIM SEIKHEM – ALL LOVE
                     </Link>
@@ -152,8 +147,8 @@ const NavbarAll = () => {
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link className="links-navbar-dropdown" to="/cursos/shamballa-multidimencional">
-                      SHAMBALLA MULTIDIMENCIONAL
+                    <Link className="links-navbar-dropdown" to="/cursos/shamballa-multidimensional">
+                      SHAMBALLA MULTIDIMENSIONAL
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
@@ -260,6 +255,11 @@ const NavbarAll = () => {
                   </NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown id="dropdown-curses" title="Cursos em Reiki - 3">
+                  <NavDropdown.Item>
+                    <Link className="links-navbar-disabled" to="/cursos/teramai-seichem">
+                      TERAMAI SEICHEM REIKI
+                    </Link>
+                  </NavDropdown.Item>
                   <NavDropdown.Item>
                     <Link className="links-navbar-disabled" to="/cursos/reiki-xamanico-mahe">
                       REIKI XAMÂNICO – MAHE’O
@@ -411,7 +411,7 @@ const NavbarAll = () => {
                     </Link>
                   </NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown id="dropdown-curses" title="Workshops">
+                <NavDropdown id="dropdown-curses" title="WorkShops">
                   <NavDropdown.Item>
                     <Link className="links-navbar-disabled" to="/cursos/runadas-nordicas">
                       HO’OPONOPONO
