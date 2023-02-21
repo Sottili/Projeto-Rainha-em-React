@@ -17,9 +17,10 @@ import App from './App';
 import HomeRainha from './templates/home';
 import AboutUs from './templates/aboutUs';
 import ImportanciaDieta from './templates/artigos/importancia-da-dieta';
+import Linktree from './templates/linktree';
 
 // CURSOS //
-
+/*
 import MagnifiedHealing from './templates/cursos/magnifiedHealing/magnifiedHealing';
 import KarunaKi from './templates/cursos/karunaKi';
 import ReikiCristao from './templates/cursos/reikiCristao';
@@ -51,6 +52,7 @@ import HunaReiki from './templates/cursos/reikiHuna';
 import ReikiElemental from './templates/cursos/reikiElemental';
 import DolphinReiki from './templates/cursos/dolphinReiki';
 import ReikiDruida from './templates/cursos/reikiDruida';
+*/
 
 const router = createBrowserRouter([
   {
@@ -73,14 +75,10 @@ const router = createBrowserRouter([
         path: '/agenda',
         element: <HomeRainha />,
       },
-      {
-        path: '/',
-        element: <HomeRainha />,
-      },
       // CURSOS //
 
       // Reiki //
-      {
+      /* {
         path: '/cursos/reiki-tradicional-usui-tibetano',
         element: <ReikiUsuiTibetano />,
       },
@@ -203,8 +201,12 @@ const router = createBrowserRouter([
       {
         path: '/cursos/sacerdocio-ordem-de-melchizedek',
         element: <SacerdocioOrdemMelchizedek />,
-      },
+      },*/
     ],
+  },
+  {
+    path: '/linktree',
+    element: <Linktree />,
   },
 ]);
 
