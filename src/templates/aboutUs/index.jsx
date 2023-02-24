@@ -27,9 +27,13 @@ const AboutUs = () => {
             <Col xxl={2}>
               <img className="img-fluid" width={320} src={gloriaFrighetto} alt="Gloria Frighetto Dirigente" />
             </Col>
-            <Col className="mt-4" style={{ textAlign: 'center' }} xxl={4}>
+            <Col
+              className="mt-4"
+              style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+              xl={12}
+            >
               <h2 style={{ marginBottom: '30px' }}>Gloria Strega</h2>
-              <p className="paragraph-aboutUs">
+              <p style={{ textAlign: 'center' }} className="paragraph-aboutUs">
                 Gloria Strega, terapeuta desde 2010, fundou o Céu Rainha da Nova Era em outubro de 2015 com o objetivo
                 de levar uma nova consciência de vida para pessoas desde planeta. Buscando reconexão com a natureza,
                 harmonia, amor e respeito a todos os seres. Desenvolveu uma conexão com a ancestralidade ao longo da sua
@@ -38,7 +42,11 @@ const AboutUs = () => {
                 povos, inclusive do nosso chão Brasil.
               </p>
             </Col>
-            <Col className="mt-4" style={{ textAlign: 'center' }} xxl={4}>
+            <Col
+              className="mt-4"
+              style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+              xl={12}
+            >
               <h2 style={{ marginBottom: '30px' }}>Oque fazemos?</h2>
               <p className="paragraph-aboutUs">
                 Nossa principal atividade são os trabalhos na linhagem do Neo Xamanismo Universal, com a utilização das

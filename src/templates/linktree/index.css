@@ -13,6 +13,18 @@
   background-repeat: no-repeat;
 }
 
+.allContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.colTest {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 .col1Linktree {
   display: flex;
   flex-direction: column;
@@ -23,6 +35,8 @@
   font-weight: 300;
   font-size: 1.8rem;
   text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 
 .subTitleLinktree {
@@ -30,7 +44,15 @@
   font-size: 1.8rem;
   text-align: center;
   max-width: 700px;
-  margin: 20px 0;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 575px) {
+  .subTitleLinktree {
+    font-size: 1.4rem;
+  }
 }
 
 .btnGloria {
@@ -61,10 +83,16 @@
   margin-bottom: 7px;
 }
 
+.btn-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .btnLinktree {
   font-family: 'Poppins';
-  padding: 8px 40px;
-  margin: 10px 0;
+  padding: 6px 40px;
+  margin: 10px 10px;
   width: 250px;
   background-color: #ffffff;
   border-radius: 15px;
@@ -85,13 +113,16 @@
 
 .titleAll {
   text-align: center;
-  margin: 40px 0;
+  margin-top: 80px;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .col2Linktree {
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cardCurses {
@@ -99,6 +130,7 @@
   border: 0;
   text-align: center;
   background-color: #1d1d1d;
+  margin: 0 20px;
 }
 
 .customTitle {
