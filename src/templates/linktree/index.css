@@ -25,6 +25,16 @@
   flex-wrap: nowrap;
 }
 
+@media (max-width: 768px) {
+  .colTest {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cardCurses {
+    margin: 20px 0 !important;
+  }
+}
+
 .col1Linktree {
   display: flex;
   flex-direction: column;
@@ -138,7 +148,7 @@
 }
 
 .customText {
-  text-align: justify;
+  text-align: center;
   margin-bottom: 30px;
 }
 
@@ -171,7 +181,8 @@
   cursor: pointer;
   font-family: 'Poppins';
   background-color: #9aff9a;
-  margin: 20px 0 !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .btnInfoWpp:hover {

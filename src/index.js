@@ -18,7 +18,6 @@ import HomeRainha from './templates/home';
 import AboutUs from './templates/aboutUs';
 import ImportanciaDieta from './templates/artigos/importancia-da-dieta';
 import Linktree from './templates/linktree';
-import CursesSection from './templates/cursosSection';
 
 // CURSOS //
 /*
@@ -75,10 +74,6 @@ const router = createBrowserRouter([
       {
         path: '/agenda',
         element: <HomeRainha />,
-      },
-      {
-        path: '/cursos',
-        element: <CursesSection />,
       },
       // CURSOS //
 
